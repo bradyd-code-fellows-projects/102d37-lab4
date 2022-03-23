@@ -41,8 +41,12 @@
           </p>
           
           <script>
-              let squat = prompt("How much can you squat?");
-              document.write("<li>You said that you can squat " + squat + ", impressive!!</li>")
+              let squat = prompt("How much can you squat? If you don't know, just type 'I'm not sure'");
+              if (squat >= 0 && squat <= 9999999999999) {
+                document.write("<li>You said that you can squat " + squat + ", impressive!!</li>")
+              } else {
+                document.write("When asked about your squat, you answered: " + squat + ". If you don't know yet, but now you want to know, it's not hard to get started!")
+              }
           </script>
       </section>
 
@@ -51,8 +55,12 @@
           </p>
           <img src="https://imgs.search.brave.com/gqYsmxOCHPXMcKj6aRhNmyvtbp_GKi7U7yKqIJZDBag/rs:fit:186:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Q/c0ZaRXFoMXZvdS1u/OEhvcThIUERBQUFB/QSZwaWQ9QXBp">
           <script>
-            let bench = prompt("How much can you squat?");
-            document.write("<li>You said that you can bench " + bench + ", nice!!</li>")
+            let bench = prompt("How much can you squat? If you don't know, just type 'I'm not sure'");
+            if (bench >= 0 && bench <= 9999999999999) {
+                document.write("<li>You said that you can bench " + bench + ", nice!!</li>")
+              } else {
+                document.write("When asked about your bench, you answered: " + bench + ". If you don't know yet, but now you want to know, it's not hard to get started!")
+              }
         </script>
       </section>
 
@@ -61,8 +69,12 @@
           <p><h4>Deadlift</h4> Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.
           </p>
           <script>
-            let deadlift = prompt("How much can you deadlift?");
-            document.write("<li>You said that you can deadlift " + deadlift + ", yeah buddy!!</li>")
+            let deadlift = prompt("How much can you deadlift? If you don't know, just type 'I'm not sure'");
+            if (deadlift >= 0 && deadlift <= 9999999999999) {
+                document.write("<li>You said that you can squat " + deadlift + ", yeah buddy!!</li>")
+              } else {
+                document.write("When asked about your squat, you answered: " + deadlift + ". If you don't know yet, but now you want to know, it's not hard to get started!")
+              }
         </script>
       </section>
 

@@ -11,12 +11,13 @@ header {
     width: 95%;
     margin: 10px;
     padding: 10px;
-    align: center;
 }
+
 
 header img {
     padding-left: 10px;
     padding-top: 10px;
+    float: left;
     
 }
 
@@ -34,16 +35,16 @@ body header h1 {
     font-size: 84pt;
     vertical-align: top;
     padding-left: 50px;
-    float: right;
+    margin-left: 10px;
 }
 
 body header h2 {
     background-color: crimson;
     width: 75%;
     display: inline;
-    font-size: 32pt;
-    padding-left: 50px;
-    float: right;
+    font-size: 24pt;
+    padding-left: 20px;
+    margin-left: 10px;
 }
 
 main {
@@ -59,20 +60,20 @@ section {
     margin: 10px;
     padding: 10px;
     outline: black 1px solid;
-    align: auto;
 }
-
-
 
  header nav ul {
      margin: 10;
      padding: 10;
      list-style-type: none;
+     float: right;
+     /* display: inline-block; */
  }
 
  header nav li {
      display: inline-block;
      border: 1px solid black;
      padding: 5px 10px 5px 10px;
+     margin: 10px;
  }
 
